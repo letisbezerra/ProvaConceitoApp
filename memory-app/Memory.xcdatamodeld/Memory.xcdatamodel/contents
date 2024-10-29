@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23231" systemVersion="23G93" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
-    <entity name="Memoria" representedClassName="Memoria" syncable="YES">
+    <entity name="Memory" representedClassName="Memory" syncable="YES">
         <attribute name="data" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="descricao" optional="YES" attributeType="String"/>
         <attribute name="redessociais" optional="YES" attributeType="URI"/>
@@ -10,6 +10,6 @@
     <entity name="Midia" representedClassName="Midia" syncable="YES">
         <attribute name="arquivo" optional="YES" attributeType="Binary"/>
         <attribute name="tipo" optional="YES" attributeType="String"/>
-        <relationship name="memoria" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Memoria" inverseName="midia" inverseEntity="Memoria"/>
+        <relationship name="memoria" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Memory" inverseName="midia" inverseEntity="Memory"/>
     </entity>
 </model>

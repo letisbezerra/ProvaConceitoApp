@@ -21,7 +21,7 @@ extension Memory {
     @NSManaged public var idmemory: UUID?
     @NSManaged public var titulo: String?
     @NSManaged public var redessociais: URL?
-    @NSManaged public var midia: NSSet?
+    @NSManaged public var midia: Set<Midia>
 
 }
 

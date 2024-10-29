@@ -208,7 +208,7 @@ struct ContentView: View {
 //    formatter.descricao = descricao
 //    formatter.data = data
 //
-//    if let imageData = selectedImagem  {
+//    if let imageData = sel ectedImagem  {
 //        formatter.imagem = imagemData
 //    }
 //
